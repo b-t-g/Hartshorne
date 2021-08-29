@@ -43,8 +43,20 @@
 
 	 Let $Y\subseteq X$ be irreducible. If $\overline{Y} = Y_1\cup Y_2$, then $(Y\cap Y_1)\cup(Y\cap Y_2) = Y$ then $Y\cap Y_1 = Y$ or $Y\cap Y_2 = Y$ but that would contradict that $\overline{Y}$ is the smallest closed set containing $Y$.
 
-**** 1.7
-
+**** 1.7a
+	 Note: We take "family of x sets" (e.g., a family of closed sets) to mean a set whose elements are in turn x sets (e.g., closed). This is consistent with his use of the term "family" in proposition 1.1 (that algebraic sets form a topology)
+	 - $X$ Noetherian $\Rightarrow$ family of closed sets has a minimal element.
+	   Let $Y$ be a family of closed sets. Consider an element $Y_1\in Y$. If there is no other element $Y_2\in Y$ such that $Y_1\supset Y_2$, then $Y_1$ is minimal. Otherwise, we have the start of a chain $Y_1\supset Y_2$; because $X$ is noetherian, we can iteratively continue this process of finding closed sets $Y_{i+1}$ that are subsets of $Y_i$ and that we'll eventually stabilize for some integer $n$ (which is to say, $\forall N > n, Y_N = Y_n$) so $Y_n$ is a minimal element.
+	 - Family of closed sets has a minimal element $\Rightarrow X$ noetherian
+	   Let $\tilde{X} = X_0\supseteq X_1\supseteq X_2\supseteq\cdots$ be a (possibly infinite) sequence of closed subsets. By assumption, $\tilde{X}$ has a minimal element, call it $X_i$. Because $\tilde{X}$ may be infinite, this means that $\forall I > i, X_I = X_i$ because, by the construction of $\tilde{X}$, $j > i\Rightarrow X_i\supseteq X_j$.
+	 - $X$ satisfies a.c.c. on open sets $\Rightarrow X$ noetherian
+	   Let $X_1\supseteq X_2\supseteq\cdots$ be an arbitrary chain of closed subsets of $X$. Then $(X\backslash X_1)\subseteq (X\backslash X_2)\subseteq\cdots$ is a chain of open sets. By assumption, the chain of open sets has some set $X\backslash X_i$ such that, $\forall I > i, (X\backslash X_I) = (X\backslash X_i)$. Therefore, $\forall I > i, X_I = X_i$.
+	 - $X$ noetherian $\Rightarrow$ $X$ satisfies a.c.c. on open sets
+	  Let $X_0\subseteq X_1\subseteq\cdots$ be an arbitrary chain of open subsets of $X$. Then $(X\backslash X_1)\subseteq (X\backslash X_2)\subseteq\cdots$ is a chain of closed sets. By assumption, the chain of closed sets has some set $X\backslash X_i$ such that, $\forall I > i, (X\backslash X_I) = (X\backslash X_i)$. Therefore, $\forall I > i, X_I = X_i$.
+	 - Every non-empty family of closed sets of $X$ has a maximal element $\Rightarrow$ every non-empty family of open sets of $X$ has a maximal element
+	   Let $Y$ be a family of open sets of $X$. Consider the family of closed sets $\tilde{Y}$ consisting of the complement of each set in $Y$ with $X$. By assumption, there is some minimal element $\tilde{Y_i}$. Therefore, the corresponding set $Y_i$ is a maximal element of $Y$.
+	 - Every non-empty family of open sets of $X$ has a maximal element $\Rightarrow$ Every non-empty family of closed sets of $X$ has a maximal element
+	   Let $Y$ be a family of closed sets of $X$. Consider the family of open sets $\tilde{Y}$ consisting of the complement of each set in $Y$ with $X$. By assumption, there is some maximal element $\tilde{Y_i}$. Therefore, the corresponding set $Y_i$ is a minimal element of $Y$.
 
 
 ** Section 3
