@@ -58,10 +58,20 @@
 	 - Every non-empty family of open sets of $X$ has a maximal element $\Rightarrow$ Every non-empty family of closed sets of $X$ has a maximal element
 	   Let $Y$ be a family of closed sets of $X$. Consider the family of open sets $\tilde{Y}$ consisting of the complement of each set in $Y$ with $X$. By assumption, there is some maximal element $\tilde{Y_i}$. Therefore, the corresponding set $Y_i$ is a minimal element of $Y$.
 
+**** 1.7b
+	 Show that $X$ noetherian $\Rightarrow$ (quasi-)compact
 
+	 Let $\{U\}_\alpha$ be an open cover of $X$ indexed by some set $\alpha$. Using the axiom of choice, construct choice functions $f_1, f_2\cdots$ such that $\forall i\in\mathbb{N}, f_i(\{U\}_\alpha)\backslash(\cup_{j < i} f_j(\{U\}_\alpha))\ne\emptyset$. Now construct a series of closed sets $X\supseteq (X\backslash f_1(\{U\}_\alpha)\supseteq (X\backslash (f_1(\{U\}_\alpha)\cup f_2(\{U\}_\alpha)))\supseteq\cdots$. Because $X$ is noetherian, we know that this eventually terminates after some number of iterations $n$. However, the way that we've constructed our choice function, this means that we're no longer able to find an open cover that has elements distinct from those covered by our previous choices of open sets. However, because $\{U\}_\alpha$ is an open cover, this can only happen once we've covered the whole space. Therefore our open sets $\{f_i(\{U\}_\alpha)\}_{i=1}^{n}$ is an open cover.
+
+	 I wonder if there's a more elegant solution that doesn't necessarily rely on the axiom of choice.
+
+**** 1.7c
+	 $X$ noetherian $\Rightarrow$ any subset of $X$ is noetherian with the induced topology
+
+	 
 ** Section 3
 *** Misc Questions
-   - Why is a function (on an affine variety) defined to be regular at a point if there is some open set $U$ containing $P$ such that $f = g/h$ for some polynomials $g,h \in k[x_1,...,x_n]$ and then a regular function one that is regular at each point (implying that they are, in general quotients) when it turns out that regular functions are defined to be equal to the affine coordinate ring?
+   - Why is a function (on an affine variety) defined to be regular at a point if there is some open set $U$ containing $P$ such that $f = \frac{g}{h}$ for some polynomials $g,h \in k[x_1,...,x_n]$ and then a regular function one that is regular at each point (implying that they are, in general quotients) when it turns out that regular functions are defined to be equal to the affine coordinate ring?
 
 	 It's completely the right definition for being local at a point unambiguously and mirrors localizing the coordinate ring at a point. One reason is that it ties together functions that are regular at a point and regular on the whole variety as "the same thing" (subrings of the same "overarching ring").
 
