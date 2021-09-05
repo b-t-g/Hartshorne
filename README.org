@@ -1,0 +1,5 @@
+* Introduction
+  Hello! These are my notes and solutions to exercises as I work through Hartshorne's book Algebraic Geometry. This currently contains just notes and solutions to exercises to Algebraic Geometry but, as I continue (especially into chapter 2 of Algebraic Geometry), I'll likely add notes and solutions for other books as well (Eisenbud's commutative algebra, etc.,).
+
+* Disclaimer
+  I am an amateur mathematician and am doing this mostly for fun after a 5+ year stretch of not doing any math seriously. My solutions to exercises have not been verified by others, let alone mathematicians. If you find anything here useful, that'll make me beyond happy; however, do keep my situation in mind when reading my notes and solutions, especially if you see anything in that is -- surprising.
