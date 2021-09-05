@@ -1,7 +1,7 @@
 * Chapter 1
 ** Section 1
 *** Misc questions	 
-   - Remark in proposition 1.10, hy is the chain of closures maximal?
+   - Remark in proposition 1.10, why is the chain of closures maximal?
 	 Suppose $\exists i$ such that $\overline{Z_0} \subseteq \cdots  \subseteq Z_{\overline{i+1}} \subseteq \overline{Z_{i+1}} \subseteq \cdots \subseteq \overline{Z_n}$
 	 
 	 $Z_{\overline{i+1}}$ is closed in $Y$, we will show it's irreducible later. Therefore, $\overline{Z_i} = Z_{i+1}\cap Y$ or $\overline{Z_{i+1}} = Z_{\overline{i+1}}\cap Y$. However, the latter would contradict the definition of closure for $Z_{i+1}$ because $Z_{\overline{i+1}}\subset \overline{Z_i}$ yet $Z_{\overline{i+1}}$ contains $Z_i$
