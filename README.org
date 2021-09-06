@@ -1,5 +1,21 @@
 * Introduction
-  Hello! These are my notes and solutions to exercises as I work through Hartshorne's book Algebraic Geometry. This currently contains just notes and solutions to exercises to Algebraic Geometry but, as I continue (especially into chapter 2 of Algebraic Geometry), I'll likely add notes and solutions for other books as well (Eisenbud's commutative algebra, etc.,).
+  Here you'll find some files documenting my goal towards working my way through Hartshorne's Algebraic Geometry. Currently, I'm only working through problems in Algebraic Geometry but, as I progress through the sections that require more mathematical machinery (especially chapter 2), I'll probably include similar notes and solutions to exercises on various commutative and also general algebra sources that I consult (e.g., Eisenbud's Commutative Algebra and Algebra by Dummit & Foote).
+  
+** Disclaimer
+  I am an amateur mathematician and am doing this mostly for fun after a 5+ year stretch of not doing any math seriously. Neither my solutions to exercises nor general intuitions have been verified by others, let alone mathematicians. If you find anything here useful, that'll make me beyond happy; however, do keep my situation in mind when reading my notes and solutions, especially if you see anything in that is -- surprising.
 
-* Disclaimer
-  I am an amateur mathematician and am doing this mostly for fun after a 5+ year stretch of not doing any math seriously. My solutions to exercises have not been verified by others, let alone mathematicians. If you find anything here useful, that'll make me beyond happy; however, do keep my situation in mind when reading my notes and solutions, especially if you see anything in that is -- surprising.
+* Contents
+** Exercise Solutions
+	My attempts at solving problems in the sources I'm reading, nothing special here. I'll take a crack on solving every problem (for Hartshorne, at least) but I may not necessarily tackle them in the order they're listed (I may try to solve exercises marked as "difficult" until after I improve my understanding of the material by solving the other exercises).
+
+** Worked out Examples
+	I'll try to include worked out examples that I find particularly enlightening as well, either as part of an exercise or as a general note, depending on where I think it fits best.
+   
+** General Questions I Have
+   I may go into a section with certain questions in mind that I want to answer. For example, the question that gave me the impetus to start working through Hartshorne:
+
+   #+BEGIN_QUOTE
+   Why is a function (on an affine variety) defined to be regular at a point if there is some open set $U$ containing $P$ such that $f = \frac{g}{h}$ for some polynomials $g,h \in k[x_1,...,x_n]$ and then a regular function one that is regular at each point (implying that they are, in general quotients) when it turns out that regular functions are defined to be equal to the affine coordinate ring?
+   #+END_QUOTE
+
+   Another common theme will likely be "is there a reasonable geometric interpretation for this algebraic construction/operation," or vice-versa.
