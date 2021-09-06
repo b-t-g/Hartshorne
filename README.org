@@ -15,7 +15,7 @@
    I may go into a section with certain questions in mind that I want to answer. For example, the question that gave me the impetus to start working through Hartshorne:
 
    #+BEGIN_QUOTE
-   Why is a function (on an affine variety) defined to be regular at a point if there is some open set $U$ containing $P$ such that $f = \frac{g}{h}$ for some polynomials $g,h \in k[x_1,...,x_n]$ and then a regular function one that is regular at each point (implying that they are, in general quotients) when it turns out that regular functions are defined to be equal to the affine coordinate ring?
+   Why is a function (on an affine variety) defined to be regular at a point if it can be represented as a quotient of polynomials on some open neighborhood and then a regular function one that is regular at each point (implying that they are, in general quotients) when it turns out that regular functions are defined to be equal to the affine coordinate ring?
    #+END_QUOTE
 
    Another common theme will likely be "is there a reasonable geometric interpretation for this algebraic construction/operation," or vice-versa.
