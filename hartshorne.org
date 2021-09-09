@@ -14,7 +14,7 @@
 	 4. $(3y^2 - 1, x - y, y -z)$ Because by the relations, we assume $y = x = z$
 	 5. $((y + \frac{1}{\sqrt{3}})(y - \frac{1}{\sqrt{3}}), x - y, y - z)$ factoring $3y^2 - 1$
 	 6. $Z(y - \frac{1}{\sqrt{3}}, x - y, y - z)\cup Z(y + \frac{1}{\sqrt{3}}, x - y, y - z)$
-	 7. $Z(y - \frac{1}{\sqrt{3}}, x - \frac{1}{\sqrt{3}}, z - \frac{1}{\sqrt{3}})\cup Z(y + \frac{1}{\sqrt{3}}, x - \frac{1}{\sqrt{3}}, z - \frac{1}{\sqrt{3}})$
+	 7. $Z(y - \frac{1}{\sqrt{3}}, x - \frac{1}{\sqrt{3}}, z - \frac{1}{\sqrt{3}})\cup Z(y + \frac{1}{\sqrt{3}}, x + \frac{1}{\sqrt{3}}, z + \frac{1}{\sqrt{3}})$
 
 	 Interestingly, even though we get the two points at which the unit sphere intersects the line, $x = y = z$, "breaking down" $x^2 + y^2 + z^2 - 1$ in this way gives us two hyperplanes defined by $y + \frac{1}{\sqrt{3}}$ and $y - \frac{1}{\sqrt{3}}$ respectively. These hyperplanes are not subvarieties of the sphere, but they do intersect the sphere at the subvariety (point) at which the line $x = y = z$ intersects the sphere. 
 		
